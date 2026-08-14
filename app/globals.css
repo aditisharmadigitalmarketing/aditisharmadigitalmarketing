@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F4F2EC;
+  color: #141414;
+}
+
+.rule {
+  border-top: 3px solid #141414;
+}
+
+.rule-thin {
+  border-top: 1px solid #141414;
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: #531c81;
+}
+
+.byline {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #346ceb;
+  border: 1px solid #346ceb;
+  padding: 4px 10px;
+}
+
+.pull-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.issue-number {
+  font-family: var(--font-mono);
+  font-size: 5rem;
+  line-height: 1;
+  color: #141414;
+  opacity: 0.12;
+}
+
+a.text-link {
+  text-decoration: underline;
+  text-decoration-color: #346ceb;
+  text-underline-offset: 3px;
+}
+
+a.text-link:hover {
+  color: #346ceb;
+}
