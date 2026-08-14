@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className="border-b-4 border-ink">
+      <meta name="google-site-verification" content="Up82_Q8Tt7YP6A_fvghbbLUG0Kgk4kxNHRNub4SKDKM" />
       <div className="max-w-5xl mx-auto px-6 pt-6 pb-3 flex items-center justify-between">
         <span className="byline">Digital Marketing Journal</span>
         <span className="byline">Est. 2020</span>
