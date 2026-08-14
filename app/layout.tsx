@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+<meta name="google-site-verification" content="Up82_Q8Tt7YP6A_fvghbbLUG0Kgk4kxNHRNub4SKDKM" />
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
