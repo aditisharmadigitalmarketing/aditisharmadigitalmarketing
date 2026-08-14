@@ -139,6 +139,26 @@ export default function About() {
       <div className="rule" />
 
       <section className="max-w-5xl mx-auto px-6 py-14">
+        <p className="byline mb-2">Values I Work By</p>
+        <h2 className="masthead-title text-2xl mb-8">Rules the work runs on</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {[
+            ["Honesty over hype", "Aditi Sharma will tell you when a channel is not worth your budget, even if that means recommending less work for her."],
+            ["Ownership", "Every campaign is treated as if it were her own business on the line, not a client account to be managed at a distance."],
+            ["Continuous learning", "Marketing platforms change constantly, so time is set aside every week for reading, testing, and staying current."],
+            ["Respect for budgets", "Whether a client has a large budget or a modest one, it gets spent as carefully as her own money would be."],
+          ].map(([title, copy]) => (
+            <div key={title} className="border-l-2 border-primary pl-5">
+              <h3 className="masthead-title text-lg mb-2">{title}</h3>
+              <p className="text-sm text-ink/80">{copy}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className="rule" />
+
+      <section className="max-w-5xl mx-auto px-6 py-14">
         <p className="byline mb-2">Field Results</p>
         <h2 className="masthead-title text-2xl mb-4">A few numbers worth mentioning</h2>
         <p className="text-sm leading-relaxed max-w-3xl">

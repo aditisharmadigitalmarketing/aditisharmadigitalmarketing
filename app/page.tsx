@@ -69,12 +69,12 @@ export default function Home() {
         </p>
         <div className="grid md:grid-cols-3 gap-x-8 gap-y-10">
           {[
-            ["Search", "On page fixes, technical audits, and keyword research that help a site rank for the searches customers are actually typing."],
-            ["Content", "Blog systems and website copy that answer real buyer questions and quietly build trust before a sales call happens."],
-            ["Paid Media", "Google and Meta campaigns set up with tracked conversions and budgets that are reviewed weekly, never left running blind."],
-            ["Email", "Welcome sequences and campaigns that turn a single purchase into a pattern of repeat ones over time."],
-            ["Social", "Posting systems for Instagram, LinkedIn, and Pinterest that keep one consistent brand voice across every channel."],
-            ["Analytics", "Plain language monthly reports so a business always knows what is working, what is not, and what changes next."],
+            ["Search", "On page fixes, technical audits, keyword research, and content planning that help a site rank for the searches customers are actually typing, not just the ones a business assumes matter."],
+            ["Content", "Blog systems, service pages, and website copy that answer real buyer questions and quietly build trust long before anyone picks up the phone or fills out a form."],
+            ["Paid Media", "Google and Meta campaigns set up with tracked conversions and clear goals, with budgets that are reviewed every week instead of left running on autopilot for a month."],
+            ["Email", "Welcome sequences, newsletters, and promotional campaigns that turn a single purchase into a pattern of repeat ones, without needing constant new traffic to grow revenue."],
+            ["Social", "Posting systems and campaign ideas for Instagram, LinkedIn, and Pinterest that keep one consistent brand voice across every channel a business shows up on."],
+            ["Analytics", "Plain language monthly reports and dashboards so a business always knows what is working, what is not, and exactly what is changing next, in numbers, not adjectives."],
           ].map(([title, copy]) => (
             <div key={title} className="border-t-2 border-ink pt-4">
               <h3 className="masthead-title text-xl mb-2">{title}</h3>
@@ -95,14 +95,15 @@ export default function Home() {
         <p className="max-w-2xl mb-8 text-ink/80">
           Aditi Sharma keeps the process simple on purpose, because
           complicated dashboards and confusing reports rarely help a business
-          owner make better decisions.
+          owner make better decisions. Every principle below shows up in how
+          a project is actually run, not just how it is pitched.
         </p>
         <div className="grid md:grid-cols-2 gap-8">
           {[
-            ["Strategy before tactics", "Before touching a single ad account or blog post, Aditi Sharma takes time to understand the business, its customers, and its competitors."],
-            ["Clear communication", "Every update is written in plain language, so a client always knows what is being worked on and why it matters."],
-            ["Data informed decisions", "Every campaign is tested, measured, and adjusted rather than left to run on assumptions about what should work."],
-            ["Long term thinking", "Quick wins matter, but the real goal is a curve that keeps climbing well after the first invoice is paid."],
+            ["Strategy before tactics", "Before touching a single ad account or blog post, Aditi Sharma takes time to understand the business, its customers, and its competitors, so tactics only get chosen once they fit inside a plan."],
+            ["Clear communication", "Every update is written in plain language, so a client always knows what is being worked on, why it matters, and what to expect next, without needing a translator for the report."],
+            ["Data informed decisions", "Every campaign is tested, measured, and adjusted rather than left to run on assumptions about what should work, so underperforming channels get changed early, not at the end of a quarter."],
+            ["Long term thinking", "Quick wins matter, but the real goal is a curve that keeps climbing well after the first invoice is paid, built on infrastructure rather than a single lucky campaign."],
           ].map(([title, copy]) => (
             <div key={title} className="border-l-2 border-primary pl-5">
               <h3 className="masthead-title text-lg mb-2">{title}</h3>
