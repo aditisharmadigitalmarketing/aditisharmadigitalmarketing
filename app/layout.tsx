@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Aditi Sharma Digital Marketing Specialist",
     "Aditi Sharma Digital Marketing Expert",
   ],
+  verification: {
+    google: "Up82_Q8Tt7YP6A_fvghbbLUG0Kgk4kxNHRNub4SKDKM",
+  },
 };
 
 export default function RootLayout({
